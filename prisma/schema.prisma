@@ -17,6 +17,7 @@ model Song {
   id        Int @id @default(autoincrement())
   artist    String?
   title     String?
+  picture   String @default("/img/rhythm.jpg")
   genre     String @default("geral")
   weight    Int    @default(1)
   path      String @unique
