@@ -1,0 +1,1 @@
+nginx ALL=(root) NOPASSWD: systemctl stop nodejs, systemctl start nodejs, systemctl restart nodejs
